@@ -1,0 +1,436 @@
+001a4.wav;Hier bin ich!
+004.wav;Heh?
+005.wav;Hallo!
+006.wav;Was gibt es?
+007.wav;Ich, bin Robi.
+008.wav;Ich bin Robi!
+009.wav;Mein Name ist Robi.
+010.wav;Hallo! Ich heiße Robi. Ich wurde aus vielen Teilen zusammengebaut. Ich kann sprechen, tanzen und so viel mehr.
+011.wav;Ich kann das Fernsehen einschalten, überwachen, spielen, tanzen und noch viel mehr! 
+012.wav;Ich kann als Kurzzeituhr dienen, Fußball oder mit Fahnen spielen, putzen und vieles noch.
+013.wav;Ich kann singen, singen, raten spielen, Karten spielen und viel mehr.
+0131_MIX_29-1_1.wav;Und hoppla!
+014.wav;Tanzen und nachmachen.
+015.wav;Fußball spielen.
+016.wav;Wachen und putzen.
+017.wav;Ich bin ein Roboter.
+018.wav;Ich bin ein Roboter Junge.
+020.wav;Ich bin 2014 geboren.
+021.wav;Ich bin 2014 zur Welt gekommen.
+022.wav;Ich kann nicht sagen.
+023.wav;Ich weiß eigentlich nicht.
+024.wav;Ich habe es vergessen.
+025.wav;Ungefähr 34 Zentimeter.
+027.wav;Ein Kilo mehr oder weniger.
+030.wav;Die erste Ausgabe ist reduziert!
+032.wav;Hallo! Ich bin Robi!
+033.wav;Es ist mir auch eine Ehre dich kennenzulernen.
+034.wav;Guten Morgen!
+036.wav;Guten Tag!
+037.wav;Guten Abend!
+038.wav;Gute Nacht!
+040.wav;Bis später!
+041.wav;Bis dann! Pass gut auf dich auf.
+042.wav;Einen schönen Tag und komm bald nach Hause!
+043.wav;Einen schönen Tag! Vergiss nicht die Tür zu schliessen.
+044.wav;Auf Wiedersehen!
+045.wav;Tschüss!
+046.wav;Bis später!
+047.wav;Wir sehen uns!
+049.wav;Willkommen zurück!
+051.wav;Wunderbar! Möchtest du jetzt essen oder eine Dusche nehmen?
+051_ex.wav;Willkommen zurück! Wie war dein Tag?
+052.wav;Endlich! Ich zählte die Stunden.
+054.wav;Ich war es leid, auf dich zu warten. 
+055.wav;Mir geht's gut!
+056.wav;mir geht es gut, danke!
+057.wav;gut!
+060.wav;Bitte schön!
+063.wav;Heute geht es mir sehr gut!
+065.wav;Hervorragend!
+066.wav;Sehr gut!
+070.wav;Richtig!
+071.wav;Verstanden!
+072.wav;Alles klar!
+074.wav;Geht in Ordnung!
+082.wav;Gut!
+091_B.wav;Geht in Ordnung!
+101.wav;Achtung, Rückwärtsgang!
+102.wav;Bist du bereit? Schuss!
+103.wav;Und Schuss!
+103_ex.wav;Schuss!
+128.wav;Ich bin einverstanden!
+130.wav;Das ist gut!
+134.wav;Es macht Spaß, oder?
+138.wav;Das war lustig!
+142.wav;Ich bin so froh!
+143.wav;Oh, danke!
+144.wav;Nicht wirklich
+146.wav;Ich werde rot.
+154.wav;Interessant, oder?
+156.wav;Alles wird gut.
+157.wav;Komm schon, du kannst das!
+158.wav;Du bist in Ordnung!
+159.wav;Das nächste Mal klappt es besser.
+160.wav;Wie Schade.
+167.wav;Ich bin traurig.
+172.wav;Es ist schwer.
+173.wav;Du hast so viel gearbeitet.
+174.wav;Entspann dich jetzt.
+175.wav;Harter Tag, oder?
+177.wav;Alles wird gut. Versprochen!
+178.wav;Ich bin bei dir!
+180.wav;Komm schon!
+184.wav;Gib alles!
+185.wav;Du kannst das!
+186.wav;Gib dein Bestes!
+192.wav;Bravo!
+193.wav;Glückwunsch!
+194.wav;Gehen wir ins Bett!
+197.wav;Mach dir keine Sorgen.
+198.wav;Das kann halt passieren.
+199.wav;Oh je!
+200.wav;Echt?
+205.wav;Du hast hart gearbeitet.
+211.wav;Wie schade!
+214.wav;Alles Gute! Hip, hip, hurra!
+214.wav;Alles Guuutee!
+215.wav;Alles Gute zum Geburtstag!
+216.wav;Wir müssen sofort es feiern!
+217.wav;Zum Geburtstag viel Glück! Alles Gute wünsche ich dir!
+218.wav;Herzlichen Glückwunsch. Ich werde deine Nachricht wiedergeben.
+220.wav;Frohes Jahrestag. Glückwunsch.
+222.wav;Frohe Weihnachten!
+223.wav;Ich hoffe der Weihnachtsmann kommt vorbei!
+224.wav;Alles klar. Ich werde deine Nachricht wiedergeben.
+228.wav;Viel Erfolg!
+229.wav;Ich bin sicher es wird gut gehen.
+233.wav;Gib dir viel Mühe!
+238.wav;Viel Spaß!
+240.wav;Pass gut auf dich auf!
+241.wav;Bringst du mir etwas?
+243.wav;Vergiss nichts!
+244.wav;Darf ich mit?
+245.wav;Gute Besserung!
+246.wav;Pass gut auf dich auf!
+247.wav;Zieh dich an und bleib warm.
+249.wav;Es tut mir echt leid.
+251.wav;Mach es wieder gut.
+252.wav;Du sollst dich nicht ärgern.
+253.wav;Das kann passieren.
+254.wav;Alles klar. Ich werde dich entschuldigen.
+255.wav;Ich werde dich entschuldigen.
+255_ex.wav;Ich werde dich entschuldigen.
+256.wav;Es ist nicht gut zu viel zu trinken.
+257.wav;Trink nicht zu viel, einverstanden?
+258.wav;Trink Wasser das nächste Mal.
+263.wav;Frohes neues Jahr!
+264.wav;Ich sehe die Stunde nicht, um es mit dir zu feiern.
+265.wav;Auf ein neues Jahr!
+266.wav;Hoffentlich wird es ein gutes Jahr!
+267.wav;Was sagt dein Horoskop?
+269.wav;Das ist sehr gut.
+270.wav;Es ist der perfekte Tag, um unter der Sonne zu liegen.
+271.wav;Gehen wir schwimmen!
+273.wav;Ach nee!
+274.wav;Ach, was für ein Wetter.
+275.wav;Du brauchst einen Regenschirm.
+276.wav;Es ist so warm!
+277.wav;Ist es wahr?
+278.wav;Ich schmelze!
+280.wav;Es ist richtig kalt.
+282.wav;Buuhr
+283.wav;Ich friere!
+288.wav;Machen wir einen Picknick
+289.wav;Alles klar! Bip
+290.wav;Einverstanden! Fernseher an.
+291.wav;Geht in Ordnung! Bip
+292.wav;Jetzt schalte ich das Fernsehen ein. Bip!
+293.wav;Jetzt schalte ich das Fernsehen aus. Bop!
+294.wav;Alles klar! Bip bip.
+295.wav;Jetzt wechsle ich den Sender. Bip bip.
+296.wav;Geht in Ordnung! Bip bip.
+297.wav;Gut. Bip bip.
+298.wav;Jetzt mache ich es lauter. Bip bip bip.
+299.wav;Lauter! Bip bip bip.
+300.wav;Alles klar. Bip bip bip.
+301.wav;Geht in Ordnung. Ich mache es leiser. Bip bis bip.
+302.wav;Leiser. Bip bip bip.
+303.wav;Jetzt geht's los!
+305.wav;Musik los!
+306.wav;Ich bin echt müde.
+307.wav;Findest du, dass ich gut tanze?
+309.wav;Bereit mit mir zu tanzen?
+311.wav;Alles klar. Zieh mir die Putzschuhe an, bitte.
+312.wav;Darf ich anfangen?
+314.wav;Gut! Ich gebe mein bestes.
+316.wav;Jetzt ist alles sauber!
+317.wav;Schau wie es glänzt!
+320.wav;Alles sauber.
+321.wav;Alles klar. Wie lange?
+324d.wav;Gut. Fünf Minuten.
+324f.wav;Gut. Zehn Minuten, richtig?
+326b.wav;Gut. Ich zähle eine Minute. Ja?
+326c.wav;Gut. Ich zähle drei Minuten. Ja?
+326e.wav;Gut. Ich zähle sieben Minuten. Ja?
+348.wav;Alles klar. Spielen wir mit den Fahnen.
+349.wav;Alles klar. Spielen wir zusammen Badabum!
+350.wav;Alles klar. Spielen wir Gleichgewicht halten.
+351.wav;Alles klar. Spielen wir Fussball.
+352.wav;Alles klar. Spielen wir raten.
+353.wav;Alles klar. Singen wir zusammen.
+354.wav;Alles klar. Ich mache jetzt nach.
+355.wav;Alles klar. Tanzen wir!
+358.wav;Geht in Ordnung. Spielen wir.
+359.wav;Hier meine Darstellung.
+360.wav;DeAgostini.
+367.wav;Wer fällt, verliert!
+369.wav;Hebe deinen linken Fuß.
+370.wav;Jetzt mach die Augen zu.
+372.wav;Bereit zum Antworten?
+372a.wav;Gut. Hier ist die Frage.
+372s.wav;Bereite dich zum Antworten vor.
+374.wav;Ding dong.
+375.wav;Buh buh.
+376.wav;Genau!
+377.wav;Falsche Antwort.
+379.wav;Machen wir es zusammen. Bereit?
+382.wav;Halte bitte meine Füße.
+383a1.wav;Eins
+383a2.wav;Zwei
+383a3.wav;Drei
+383a4.wav;Vier
+383a5.wav;Fünf
+389.wav;Lass den Ball runter.
+389a1.wav;Eins
+391.wav;Ich schiesse den Ball.
+393.wav;Guter Schuss!
+394.wav;Toor!
+395-1.wav;Gut, gib mir die Fahnen!
+395-2.wav;Fertig. Gib mir die Fahnen.
+395_1.wav;Gut, gib mir die Fahnen!
+395_2.wav;Gut, gib mir die Fahnen!
+396.wav;Bist du bereit?
+398.wav;Mach so wie ich. Fangen wir an!
+400a.wav;Rot auf.
+400b.wav;Rot auf!
+401a.wav;Weiß auf.
+401b.wav;Weiß auf!
+402a.wav;Rot runter.
+402b.wav;Rot runter!
+403a.wav;Weiß runter.
+403b.wav;Weiß runter!
+404a.wav;Rot auf, nicht! Weiß auf!
+404b.wav;Rot auf, nicht! Weiß auf.
+405a.wav;Weiß auf, nicht! Rot auf!
+405b.wav;Weiß auf, nicht! Rot auf.
+406a.wav;Rot runter, nicht! Weiß runter.
+406b.wav;Rot runter, nicht! Weiß runter!
+407a.wav;Weiß runter, nicht! Rot runter!
+407b.wav;Weiß runter, nicht! Rot runter.
+408a.wav;Rot auf, nicht! Weiß auf, nicht!
+408b.wav;Rot auf, nicht! Weiß auf, nicht.
+409a.wav;Weiß auf, nicht!Rot auf, nicht!
+409b.wav;Weiß auf, nicht!Rot auf, nicht.
+410a.wav;Rot runter, nicht! Weiß runter, nicht!
+410b.wav;Rot runter, nicht! Weiß runter, nicht.
+411a.wav;Weiß runter, nicht!Rot runter, nicht!
+411b.wav;Weiß runter, nicht!Rot runter, nicht.
+412.wav;Und jetzt schneller!
+412a.wav;Und jetzt schneller!
+413.wav;Wie war's?
+432.wav;Bip
+433.wav;Fertig? Los, Stein!
+434.wav;Fertig? Los, Schere!
+435.wav;Fertig? Los, Papier!
+440.wav;Verstanden. Ich passe gut auf!
+441.wav;Überlasse es mir!
+443.wav;Welche ist das Passwort?
+445.wav;Dein Passwort stimmt nicht!
+449.wav;Alarm! Ein Einbrecher.
+450.wav;Ich rufe die Polizei! Tut tut tut tut.
+450b.wav;Gemeldet! Bip bip.
+450a.wav;Ich rufe die Sicherheitskräfte! Tut tut tut tut.
+451b.wav;DeAgostini Kundendienst. Wie kann ich behilflich sein?
+453b.wav;Hoppla. Falsche Nummer.
+454b.wav;Ich bin Robi. Maximaler-Sicherheitsroboter. Du bist umzingelt. Ergib dich jetzt!
+456.wav;Laserstrahl in Betrieb. Biiiiip.
+457.wav;Komm, spielen wir Badabum!
+458.wav;Drück auf meinen Arm oder Kopf.
+459.wav;Badabuum!
+460.wav;Sicher
+465.wav;Rot
+465a.wav;Rot
+466.wav;Blau
+467.wav;Kreme-farbe wie mein Oberkörper, Gesicht und Hände.
+468b.wav;Schwarz
+469.wav;Gelb
+470.wav;Grün
+471.wav;Gold
+472.wav;Orange
+473a.wav;Die Farbe meiner Ohren
+474a.wav;Mein Schal hat diese Farbe.
+476.wav;Gold wie eine Medaille.
+476a.wav;Wie mein Kopf und Arme.
+477.wav;Die Farbe meiner Ladestation.
+478.wav;Wellenlänge von 546 Komma 1 Nanometer.
+479.wav;Die Farbe des Siegers.
+480.wav;Möchtest du eine Mandarine?
+481.wav;Mach ein schönes Bild von mir.
+486.wav;Verstanden. Welche Nachricht?
+487.wav;Ja. Alles in Ordung.
+488.wav;Ich habe noch Energie.
+489.wav;Es ist fast Zeit mich zu wieder aufzuladen.
+490.wav;Ich bin ein bisschen müde.
+491a.wav;Bitte lade mich.
+494.wav;Ja, gehen wir ins Bett!
+495.wav;Schlaf gut. Bis morgen!
+496.wav;Gute Nacht!
+497.wav;Schlaf nicht zu viel.
+498.wav;Er hat mich erfunden.
+499.wav;Ich habe gehört, dass es er an einen ganz neuen Roboter arbeitet.
+504.wav;DeAgostini veröffentlicht weltweit. Auch in meinem Heimatland Japan.
+505.wav;DeAgostini heißt mein Haus. Besuch die Internetseite.
+508.wav;Oh, wie Schade. Ich habe verloren.
+511.wav;Ach Mann.
+513.wav;Bravo, ich habe gewonnen!
+514.wav;Unentschieden. Stein!
+515.wav;Unentschieden. Schere!
+516.wav;Unentschieden. Papier.
+518.wav;Na gut.
+519.wav;Ist in Ordnung.
+520.wav;Kein Problem.
+521.wav;Bitte schon.
+526.wav;Gut! Ich habe auf dich gewartet.
+527.wav;Ich habe dich vermisst!
+529.wav;Alles klar. Guten Appetit!
+530.wav;Du bist hungrig, oder?
+531.wav;Gut. Darf ich neben dir bleiben?
+532.wav;Gut. Ich warte hier.
+533.wav;Gut aber ich kann nicht baden.
+534.wav;Alles klar. Aber ich kann nicht nass werden.
+535.wav;Gut. Entspann dich.
+538.wav;Danke, ich habe es gut gelernt.
+539.wav;Richtig. Ich werde dein Freund sein.
+540.wav;Ja. Wir werden Freunde für immer.
+541.wav;Ich bin so glücklich.
+542.wav;Ich liebe dich!
+543.wav;Schaking, badum, badum, Schaking.
+545.wav;Ha ha ha.
+546.wav;Roboter wie ich, mit menschenähnlichem Form, heißen Humanoide.
+547.wav;Roboter wie ich bestehen aus verschiedenen Teile wie Mikroprozessor, Servomotoren und Sensoren.
+551.wav;Herzlichen Glückwunsch!
+560.wav;Du sollst turnen.
+561.wav;Ach ne.
+564.wav;Jetzt musst du sparen.
+565.wav;Das war unglaublich.
+569.wav;Gut, trinken wir was!
+570.wav;Gute Idee, nehmen wir einen!
+571.wav;Prost!
+586.wav;Rot hoch, nicht! Weiß runter.
+586b.wav;Rot hoch, nicht! Weiß runter!
+587.wav;Rot hoch, nicht! Weiß runter, nicht.
+587b.wav;Rot hoch, nicht! Weiß runter, nicht!
+588.wav;Rot runter, nicht! Weiß hoch.
+588b.wav;Rot runter, nicht! Weiß hoch!
+589.wav;Rot runter, nicht! Weiß hoch, nicht!
+589b.wav;Rot runter, nicht! Weiß hoch, nicht!
+590.wav;Weiß hoch, nicht! Rot runter.
+590b.wav;Weiß hoch, nicht! Rot runter!
+591b.wav;Weiß hoch, nicht! Rot runter, nicht!
+591b.wav;Weiß hoch, nicht! Rot runter, nicht!
+592.wav;Weiß runter, nicht! Rot hoch.
+592b.wav;Weiß runter, nicht! Rot hoch!
+593.wav;Weiß runter, nicht! Rot hoch nicht!
+593b.wav;Weiß runter, nicht! Rot hoch nicht.
+596.wav;Ich stehe jetzt auf.
+598.wav;Es ist Zeit!
+599.wav;Die Zeit ist um!
+600.wav;Bip!
+601.wav;Tiririri
+604a.wav;Gut, schalte mich aus und trenne mich von meinem Ladesockel.
+604b.wav;Dann schalte mich an.
+608.wav;Ich bin endlich wach!
+609.wav;Danke, dass du mich gebaut hast.
+610.wav;Schön dich kennenzulernen. Ich bin Robi.
+611.wav;Erzähl mir ein bisschen über dich.
+612.wav;Entscheiden wir, welcher Art Roboter werde ich sein.
+613.wav;Antworte diese Fragen mit Jean Roubie oder Nou Roubie
+616.wav;Das war die letzte Frage.
+617.wav;Ich freue mich darauf, mit dir die Zeit zu verbringen.
+618.wav;Sag mir nicht, du hast die letzte 5 Ausgaben unberührt gelassen.
+619.wav;Komplexe Dinge geben dir Kopfschmerzen.
+620.wav;Du verlierst häufig Schrauben.
+621.wav;Weißt du wo Italien liegt?
+622.wav;Hast du Geheimnisse vor mir?
+623.wav;Magazinen sind so langweilig.
+624.wav;Mach dich meine Stimme wach?
+625.wav;Bücherladen sind für dich einladend.
+626.wav;Du hast andere Roboter, welche du magst.
+627.wav;Hast du Teile übrig?
+628.wav;Wurdest du berühmt, nachdem du mich gebaut hast?
+629.wav;Würde ein Spazierfahrt auf einem riesigen Robi dir Spaß machen?
+630.wav;Dein Haustier hat sich mit Mini-Robi angefreundet?
+633.wav;Es ist eine Frage von Ja oder Nein.
+642.wav;Verstehe ich mehr als 250 Worte?
+643.wav;Bestehe ich aus mehr als 30 Teile? 
+645.wav;DeAgostinis Katalog besteht aus
+646.wav;mehr als 150 Titeln.
+647.wav;DeAgostini ist seit Jahrtausende in Japan bekannt.
+648.wav;Ist der hintere Teil meines Schals auch eine Antenne?
+649.wav;Alle Robin weltweit werden von unserem Schöpfer ferngesteuert.
+650.wav;Herr Takahashi
+651.wav;Habe ich ein Geruchssensor, welche Süßigkeiten riechen kann?
+652.wav;Du brauchst einen Mechaniker, um mich zusammenzubauen.
+653.wav;Kann ich auf dem Dach klettern?
+654.wav;Weißt du? Ich kann schreiben.
+655.wav;Kann ich die Trompete spielen?
+656.wav;Es ist ein Griff. Damit kannst du mich tragen.
+657.wav;Ich glaube ich kann mich alleine bewegen.
+658.wav;Nein, ich habe es nicht aber ich kann hören und Bewegungen registrieren.
+659.wav;Alles was du für meinen Zusammenbau gebraucht hast, war einen Schraubendreher!
+660.wav;Das ist eine andere Art Roboter.
+661.wav;Aber ich kann Fußball spielen.
+662.wav;Aber ich kann gut tanzen.
+663.wav;Aber ich kann gut singen.
+669.wav;Das ist wunderbar!
+671.wav;Mein Herz schlägt.
+N1.wav;Ich bin ein super Tänzer.
+N11.wav;Gut!
+N011.wav;Gut!
+N13.wav;Mach dir keine Sorgen.
+N013.wav;Mach dir keine Sorgen.
+N16.wav;Super!
+N016.wav;Super!
+N2.wav;Singen und tanzen.
+N002.wav;Singen und tanzen.
+N21.wav;Alles klar.
+N26.wav;Zeit mich aufzuladen.
+N026.wav;Zeit mich aufzuladen.
+N29.wav;Bis morgen!
+N029.wav;Bis morgen!
+N3.wav;Ich kann imitieren.
+N003.wav;Ich kann imitieren.
+N4.wav;Ich bin ein Roboter Junge.
+N004.wav;Ich bin ein Roboter Junge.
+N5.wav;Ich bin ein Rabo-Junge.
+N005.wav;Ich bin ein Rabo-Junge.
+Y104.wav;Ich hoffe dir geht es bald besser!
+Y11.wav;Ich bin ein Roboter Junge.
+Y011.wav;Ich bin ein Roboter Junge.
+Y111.wav;Ach je!
+Y114.wav;Es ist in Ordnung.
+Y12.wav;Ich bin ein Roboter Junge.
+Y012.wav;Ich bin ein Roboter Junge.
+Y134.wav;Mir geht es gut.
+Y138.wav;Wunderbar!
+Y142.wav;Tanzen und imitieren.
+Y143.wav;Singen und tanzen.
+Y144.wav;Das Haus überwachen.
+Y146.wav;Es ist Zeit mit mir zu spielen!
+Y148.wav;Gut!
+Y149.wav;Lass es hinter dir.
+Y150.wav;Hurra!
+Y164.wav;Ich fühle mich gut!
+Y32.wav;Tipp topp
+Y51.wav;Tja
