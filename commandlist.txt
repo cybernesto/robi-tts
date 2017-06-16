@@ -1,0 +1,277 @@
+NF01.wav;Hello Robi.
+NF02.wav;Listen Robi.
+NF03.wav;Hiya Robi!
+NF04.wav;Guess what Robi?
+NF05.wav;Listen up Robi!
+NF06.wav;Hey Robi!
+NF07.wav;Hi Robi!
+NF08.wav;
+NF09.wav;Hey Mr. Robot!
+NF10.wav;Mr. Robot!
+NF100.wav;That's really hard.
+NF101.wav;
+NF102.wav;I'm very tired.
+NF103.wav;I'm exhausted.
+NF104.wav;Cheer me up, will you?
+NF105.wav;Say something to cheer me up.
+NF106.wav;Can you cheer me up?
+NF107.wav;I had a great day today.
+NF108.wav;I had a bad day today.
+NF109.wav;I passed the test.
+NF11.wav;Hello there! Who are you?
+NF110.wav;It didn't go well.
+NF111.wav;It's my birthday.
+NF112.wav;It's our anniversary.
+NF113.wav;It's christmas.
+NF114.wav;I've got an exam.
+NF115.wav;I've got a match.
+NF116.wav;I've got a date.
+NF117.wav;I'm going on a trip.
+NF118.wav;I have a cold.
+NF119.wav;I had a fight.
+NF12.wav;What's your name?
+NF120.wav;
+NF121.wav;Cheer for me Robi.
+NF122.wav;It's new year's day.
+NF123.wav;It's going to be sunny.
+NF124.wav;It's a sunny day.
+NF125.wav;It's going to rain.
+NF126.wav;It's raining.
+NF127.wav;It's hot today.
+NF128.wav;It's chilly today.
+NF129.wav;The weather's nice today.
+NF13.wav;
+NF130.wav;Turn on the TV.
+NF131.wav;I want to watch TV.
+NF132.wav;Let's watch TV.
+NF133.wav;Turn off the TV.
+NF134.wav;Change the channel.
+NF135.wav;Switch channel.
+NF136.wav;Turn up the volume.
+NF137.wav;
+NF138.wav;
+NF139.wav;Turn down the volume
+NF14.wav;Introduce yourself!
+NF140.wav;Turn the volume down.
+NF141.wav;Turn the TV down.
+NF142.wav;Please dance with me.
+NF143.wav;Come on, let's dance.
+NF144.wav;Dance with me.
+NF145.wav;Shall we dance together?
+NF146.wav;Please clean up!
+NF147.wav;Please clean up for me.
+NF148.wav;
+NF149.wav;
+NF15.wav;What can you do?
+NF150.wav;Set the timer!
+NF151.wav;Set an alarm.
+NF152.wav;Alarm clock.
+NF153.wav;Tell me when the time is up.
+NF154.wav;Set to one minute!
+NF155.wav;Three minutes.
+NF156.wav;Five minutes.
+NF157.wav;Seven minutes.
+NF158.wav;Set to ten minutes.
+NF159.wav;
+NF16.wav;What are you good at?
+NF160.wav;Come on, let's play.
+NF161.wav;Can we play.
+NF162.wav;Do you want to play?
+NF163.wav;Let's play together.
+NF164.wav;Do you want to play a game?
+NF165.wav;Let's play a game.
+NF166.wav;Let's play a game together.
+NF167.wav;Could you do something for me?
+NF168.wav;Say something funny.
+NF169.wav;Do a mime for me.
+NF17.wav;Are you a boy?
+NF170.wav;
+NF171.wav;Let's play the balancing game.
+NF172.wav;Ask me a question.
+NF173.wav;Give me a quiz.
+NF174.wav;Quiz me Robi.
+NF175.wav;Do push-ups.
+NF176.wav;Do sit-ups.
+NF177.wav;Sing something for me.
+NF178.wav;Let's play football.
+NF179.wav;Play football with me.
+NF18.wav;How old are you?
+NF180.wav;Wave the flags.
+NF181.wav;Let's play the flag game.
+NF182.wav;
+NF183.wav;
+NF184.wav;
+NF185.wav;
+NF186.wav;Do what you did in your TV ad.
+NF187.wav;Rock-paper-scissors.
+NF188.wav;Let's play rock-paper-scissors.
+NF189.wav;Robi stand guard.
+NF19.wav;How tall are you?
+NF190.wav;Security mode.
+NF191.wav;Home security.
+NF192.wav;Watch the house.
+NF193.wav;Let's play kaboom.
+NF194.wav;What's your favorite color today?
+NF195.wav;Let me take your picture.
+NF196.wav;
+NF197.wav;
+NF198.wav;Message mode.
+NF199.wav;Message mode.
+NF20.wav;How much do you weigh?
+NF200-2.wav;
+NF200.wav;Please send a message.
+NF201.wav;Is your battery OK?
+NF202.wav;Are you charged up?
+NF203.wav;Are you fully charged?
+NF204.wav;Do you want me to charge your battery?
+NF205.wav;Are you hungry?
+NF206.wav;Aren't you hungry?
+NF207.wav;Are you feeling sleepy?
+NF208.wav;Are you tired?
+NF209.wav;Charge your battery.
+NF21.wav;
+NF210.wav;Charge your battery.
+NF211.wav;Takahashi Tomotaka.
+NF212.wav;
+NF213.wav;
+NF214.wav;
+NF215.wav;
+NF216.wav;Yeah, Robi.
+NF217.wav;No, Robi.
+NF218.wav;I like it Robi.
+NF219.wav;
+NF22.wav;Say hello!
+NF220.wav;I don't like it, but I don't hate it.
+NF221.wav;Great, I won!
+NF222.wav;Oh no, I lost!
+NF223.wav;OK, it's a draw.
+NF224.wav;OK Robi.
+NF225.wav;OK
+NF226.wav;
+NF227.wav;
+NF228.wav;
+NF229.wav;
+NF23.wav;Nice to meet you!
+NF230.wav;
+NF231.wav;
+NF232.wav;
+NF233.wav;I'm sorry Robi.
+NF234.wav;
+NF235.wav;Congratulations.
+NF236.wav;Thank you Robi.
+NF237.wav;
+NF238.wav;I'll be OK.
+NF239.wav;It's OK.
+NF24.wav;Good morning!
+NF240.wav;I'll be home early.
+NF241.wav;I'll be home late.
+NF242.wav;I'll be late back.
+NF243.wav;Right, time to eat.
+NF244.wav;Come on, dinner time. 
+NF245.wav;Let's have dinner.
+NF246.wav;Time for a bath.
+NF247.wav;I'll take a bath.
+NF248.wav;You're a good robot.
+NF249.wav;Please by my friend.
+NF25.wav;
+NF250.wav;We are friends.
+NF251.wav;I love you.
+NF252.wav;Transform!
+NF253.wav;Tell me what you understand. 
+NF254.wav;Tell me some words you know.
+NF255.wav;
+NF256.wav;
+NF257.wav;Tell me about robots.
+NF258.wav;That went really well.
+NF259.wav;Oh no, I failed.
+NF26.wav;Good afternoon!
+NF260.wav;I'm in love with someone new.
+NF261.wav;I have to go on a diet.
+NF262.wav;I've gained too much weight.
+NF263.wav;I ate too much.
+NF264.wav;I'm broke this month.
+NF265.wav;That was amazing!
+NF266.wav;Excellent!
+NF267.wav;What do you think of me?
+NF268.wav;Do you like me?
+NF269.wav;Let's have a drink.
+NF27.wav;Good evening!
+NF270.wav;Would you like a drink.
+NF271.wav;
+NF272.wav;Switch off.
+NF273.wav;
+NF274.wav;
+NF275.wav;
+NF276.wav;
+NF28.wav;Good night Robi.
+NF29.wav;I'm off out.
+NF30.wav;I'm going now!
+NF31.wav;See you soon.
+NF32.wav;See you later!
+NF33.wav;Bye for now.
+NF34.wav;Goodbye Robi!
+NF35.wav;Bye Bye!
+NF36.wav;Hello! I'm home.
+NF37.wav;Hello! I'm back.
+NF38.wav;How are you doing?
+NF39.wav;Thank you Robi!
+NF40.wav;Good job Robi!
+NF41.wav;How was your day?
+NF42.wav;Are you ready?
+NF43.wav;
+NF44.wav;Go on, start!
+NF45.wav;OK Robi, let's go!
+NF46.wav;OK, let's begin.
+NF47.wav;
+NF48.wav;Let's stop now Robi!
+NF49.wav;I want to stop now.
+NF50.wav;
+NF51.wav;
+NF52.wav;Can we stop?
+NF53.wav;That's enough now.
+NF54.wav;All finished.
+NF55.wav;Wait a minute.
+NF56.wav;Robi, go forward.
+NF57.wav;Start walking.
+NF58.wav;Come towards me.
+NF59.wav;Come over here.
+NF60.wav;Robi, come here!
+NF61.wav;
+NF62.wav;
+NF63.wav;Come to me.
+NF64.wav;Come and face me.
+NF65.wav;Robi go left.
+NF66.wav;Go to the left.
+NF67.wav;Turn to the left.
+NF68.wav;Robi go right.
+NF69.wav;Go to the right.
+NF70.wav;Turn to the right.
+NF71.wav;Time to wake up.
+NF72.wav;Robi, wake up.
+NF73.wav;Robi, stand up.
+NF74.wav;
+NF75.wav;Robi, sit down.
+NF76.wav;Robi, sit still.
+NF77.wav;
+NF78.wav;
+NF79.wav;Robi, move back.
+NF80.wav;
+NF81.wav;Are you ready Robi? Shoot!
+NF82.wav;Get ready, kick!
+NF83.wav;
+NF84.wav;
+NF85.wav;
+NF86.wav;Play some music.
+NF87.wav;That's very good.
+NF88.wav;That is fun.
+NF89.wav;That was fun.
+NF90.wav;That, was fun.
+NF91.wav;You're smart! 
+NF92.wav;You're so cute.
+NF93.wav;You're so cool.
+NF94.wav;That's so cool.
+NF95.wav;That was fun!
+NF96.wav;Oh no, Robi.
+NF97.wav;Oh dear Robi.
+NF98.wav;That's so sad.
+NF99.wav;I'm sad today.

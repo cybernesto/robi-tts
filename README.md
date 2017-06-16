@@ -16,7 +16,7 @@ A translation of each sentence was used as the input of an awk script that would
 
 ## Creating your own german version of Robi's heart
 
-Just copy the cliplist_de.txt file and the generate speech.sh script into duplicate of the micro-sd card. 
+Just copy the cliplist_de.txt file and the generate speech.sh script into a duplicate of the micro-sd card. 
 
 **Make sure you use a duplicate since the script will overwrite all original sound files making this change irreversible.**
  
