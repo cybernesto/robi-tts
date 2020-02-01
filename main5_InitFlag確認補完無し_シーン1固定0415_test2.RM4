@@ -327,7 +327,7 @@
 	<const data="2"/>
 	<sub/>
 	<ge/>
-	<jump adr="0x00002315"/>
+	<jump adr="0x0001310b"/>
 </calc>
 
 <jump adr="0x00001b83"/>
@@ -2430,3 +2430,22 @@
 
 
 <wait size="1" adr="0x0b43"/>
+
+
+<medit>
+	<block name="¶–Ú‚ª”½‰ž‚µ‚½‚©H~~" type="1" xpos="150" ypos="1200" bluearrow="40" redarrow="21"/>
+	<varcalc size="2" data="131074" adr="0x0f9e">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f9e"/>
+	<const data="2"/>
+	<sub/>
+	<ge/>
+	<jump adr="0x00001d23"/>
+</calc>
+<jump adr="0x00002315"/>
