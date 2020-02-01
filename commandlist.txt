@@ -75,7 +75,7 @@ NF158.wav;Set to ten minutes.
 NF159.wav;
 NF16.wav;What are you good at?
 NF160.wav;Come on, let's play.
-NF161.wav;Can we play.
+NF161.wav;Can we play?
 NF162.wav;Do you want to play?
 NF163.wav;Let's play together.
 NF164.wav;Do you want to play a game?

@@ -285,7 +285,7 @@
 488.wav;Ich habe noch Energie.
 489.wav;Es ist fast Zeit mich wieder aufzuladen.
 490.wav;Ich werde langsam müde.
-491a.wav;Bitte lade mich.
+491a.wav;Bitte lade mich auf.
 494.wav;Ja, gehen wir ins Bett!
 495.wav;Schlaf gut. Bis morgen!
 496.wav;Gute Nacht!
@@ -303,7 +303,7 @@
 520.wav;Kein Problem.
 521.wav;Bitte schon.
 526.wav;Gut! Ich werde auf dich warten.
-527.wav;Ich habe dich vermisst!
+527.wav;Ich werde dich vermissen!
 529.wav;Alles klar. Guten Appetit!
 530.wav;Du bist hungrig, oder?
 531.wav;Gut. Ich werde hier warten.
@@ -372,7 +372,7 @@
 629.wav;Würde eine Spazierfahrt auf einem riesigen Robi dir Spaß machen?
 630.wav;Dein Haustier hat sich mit Mini-Robi angefreundet?
 633.wav;Es ist eine Ja oder Nein Frage.
-642.wav;Verstehe ich mehr als 250 Worte?
+642.wav;Verstehe ich mehr als 250 Sätze?
 643.wav;Bestehe ich aus mehr als 30 Teile? 
 645.wav;DeAgostinis Katalog besteht aus
 646.wav;mehr als 150 Titeln.
@@ -381,9 +381,9 @@
 649.wav;Alle Robis weltweit werden von unserem Schöpfer ferngesteuert.
 650.wav;Herr Takahashi
 651.wav;Habe ich einen Geruchssensor, welche Süßigkeiten riechen kann?
-652.wav;Du brauchst einen Mechaniker, um mich zusammenzubauen.
+652.wav;Brauchst Du einen Mechaniker, um mich zusammenzubauen?
 653.wav;Kann ich ein Seil hochklettern?
-654.wav;Weißt du? Ich kann schreiben.
+654.wav;Weißt du, ob ich schreiben kann?
 655.wav;Kann ich die Trompete spielen?
 656.wav;Es ist ein Griff. Damit kannst du mich tragen.
 657.wav;Ich glaube ich kann mich alleine bewegen.
