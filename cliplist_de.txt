@@ -395,6 +395,7 @@
 663.wav;Aber ich kann gut singen.
 669.wav;Das ist wunderbar!
 671.wav;Mein Herz schlägt.
+RC_32.wav;Bitte lade mich auf!
 N1.wav;Ich bin ein super Tänzer.
 N11.wav;Gut!
 N011.wav;Gut!
