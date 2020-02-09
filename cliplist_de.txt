@@ -11,6 +11,7 @@
 013.wav;Ich kann tanzen, singen, Frage-Antwort spielen und viel mehr.
 0131_MIX_29-1_1.wav;Und hoppla!
 0131_MIX_29-1_2.wav;eh, he.
+0131_MIX_30-1_2.wav;ih, ah
 0131_MIX_30-1_22.wav;eh, he.
 014.wav;Tanzen und nachmachen.
 015.wav;Fußball spielen.
@@ -58,6 +59,8 @@
 082.wav;Gut!
 091_B.wav;Geht in Ordnung!
 092.wav;Ih, ihi, jupp!
+093.wav;ih, ah
+094.wav;ih, ah
 101.wav;Achtung, Rückwärtsgang!
 102.wav;Bist du bereit? Schuss!
 103.wav;Und Schuss!
@@ -182,7 +185,7 @@
 351.wav;Alles klar. Spielen wir Fussball.
 352.wav;Alles klar. Spielen wir raten.
 353.wav;Alles klar. Singen wir zusammen.
-354.wav;Alles klar. Ich mache jetzt nach.
+354.wav;Alles klar. Mach mit!
 355.wav;Alles klar. Tanzen wir!
 358.wav;Geht in Ordnung. Spielen wir.
 359.wav;Hier meine Darstellung.
@@ -327,6 +330,7 @@
 569.wav;Gut, trinken wir was!
 570.wav;Gute Idee, trinken wir ein Glas!
 571.wav;Prost!
+572.wav;Bip
 586.wav;Rot hoch, nicht! Weiß runter.
 586b.wav;Rot hoch, nicht! Weiß runter!
 587.wav;Rot hoch, nicht! Weiß runter, nicht.
@@ -337,7 +341,6 @@
 589b.wav;Rot runter, nicht! Weiß hoch, nicht!
 590.wav;Weiß hoch, nicht! Rot runter.
 590b.wav;Weiß hoch, nicht! Rot runter!
-591b.wav;Weiß hoch, nicht! Rot runter, nicht!
 591b.wav;Weiß hoch, nicht! Rot runter, nicht!
 592.wav;Weiß runter, nicht! Rot hoch.
 592b.wav;Weiß runter, nicht! Rot hoch!
@@ -350,6 +353,8 @@
 601.wav;Tiririri
 604a.wav;Gut, schalte mich aus und trenne mich von meinem Ladesockel.
 604b.wav;Dann schalte mich an.
+605.wav;ah
+607.wav;uhm
 608.wav;Ich bin endlich wach!
 609.wav;Danke, dass du mich gebaut hast.
 610.wav;Schön dich kennenzulernen. Ich bin Robi.

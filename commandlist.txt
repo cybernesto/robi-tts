@@ -196,7 +196,7 @@ NF267.wav;What do you think of me?
 NF268.wav;Do you like me?
 NF269.wav;Let's have a drink.
 NF27.wav;Good evening!
-NF270.wav;Would you like a drink.
+NF270.wav;Would you like a drink?
 NF271.wav;
 NF272.wav;Switch off.
 NF273.wav;
