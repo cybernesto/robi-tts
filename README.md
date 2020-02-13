@@ -36,7 +36,9 @@ for j in {1..7} 9; do for i in ./$j/*.RM4; do python wave_rm4.py $i; done; done
 
 **Make sure you use a backup SD Card since the script will overwrite all the pose files making this change irreversible.**
 
-It would be possible to modify the threshold calculation to improve this approach or even replace the RMS calculation through an FFT to extract only relevant frequency ranges to cause the LED to light up. This simple solution works well in most of the cases but not for the songs, since the calculation does not separate the music from the voice. I reverted the files from the backup of songsouji3.RM4 and songsouji3.RM4 to correct this.
+It would be possible to modify the threshold calculation to improve this approach or even replace the RMS calculation through an FFT to extract only relevant frequency ranges to cause the LED to light up. 
+
+My simple solution works well in most of the cases but not for the songs, since the calculation does not separate the music from the voice. I reverted the files from the backup of songsouji3.RM4 and songtimer3.RM4 to correct this.
 
 ## Contributing
 
