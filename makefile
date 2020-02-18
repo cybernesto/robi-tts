@@ -27,8 +27,7 @@ poses: $(POSEDEP) $(POSES)
 #3/233絶対勝ってね９.RM4:voice/233.wav
 #	 python wave_rm4.py $@
 %.d:
-	awk -F'"'  '/[:alnum:]*.wav/{gsub(/\\/,"/",$$2);wave =$$2} END{print FILENAME":"wave; print "\tpython wave_rm4.py " FILENAME}' '$(@:%.d=%.RM4)' > $@
-
+	iconv -c -f SHIFT_JIS -t utf8  $(@:%.d=%.RM4) | awk -F'"' '/.wav/{gsub(/¥/,"/",$$2);wave[$$2]=$$2} END{for(w in wave) pre= pre" "w; print "$(@:%.d=%.RM4)" ":"pre; print "\tpython wave_rm4.py $(@:%.d=%.RM4)"}' > $@
 
 -include $(POSEDEP)
 
