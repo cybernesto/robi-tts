@@ -16,7 +16,7 @@ A translation of each sentence was used as the input of an awk script that would
 
 ## Creating your own german version of Robi's heart
 
-Just copy the cliplist_de.txt file and the generate speech.sh script into a duplicate of the micro-sd card.
+Just copy the *cliplist_de.txt* file and the *generate speech.sh* script into a duplicate of the micro-sd card.
 
 **Make sure you use a backup SD Card since the script will overwrite all the original sound files making this change irreversible.**
 
@@ -39,6 +39,12 @@ for j in {1..7} 9; do for i in ./$j/*.RM4; do python wave_rm4.py $i; done; done
 It would be possible to modify the threshold calculation to improve this approach or even replace the RMS calculation through an FFT to extract only relevant frequency ranges to cause the LED to light up. 
 
 My simple solution works well in most of the cases but not for the songs, since the calculation does not separate the music from the voice. I reverted the files from the backup of songsouji3.RM4 and songtimer3.RM4 to correct this.
+
+## The Makefile
+
+It takes some time to generate all wave files from the cliplist text. This is fine if you only need to do it once. But if you start modifying some of the sentences it is not very efficient to generate all files from scratch. If you want to update the poses to synchronise the mouth LED too, it is an additional chore to be taken care of after each modification. 
+
+To avoid this I created a makefile. The makefile needs one input text file for each wave file to be generated. These can be created from the cliplist with the *generate_txt.sh* script. Afterwards you only need to change a text file and run *make*. The corresponding wave file and pose will be updated. If you ever want to consolidate all textfiles into a cliplist again, you can call *make cliplist.txt*.
 
 ## Contributing
 

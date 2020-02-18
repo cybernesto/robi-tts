@@ -7,7 +7,7 @@ POSES := $(filter-out $(NULLPOSES) 4/000ダンス.RM4 9/songsouji3.RM4 9/song
 POSEDEP := $(POSES:%.RM4=%.d)
 
 # Default target
-all: $(WAVS)
+all: $(WAVS) poses
 
 # Our phony targets for managing the project
 .PHONY: clean 
