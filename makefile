@@ -1,7 +1,10 @@
 PHRASES := $(wildcard ./phrases/*.txt)
 WAVS := $(patsubst ./phrases/%.txt,./voice/%.wav,$(PHRASES))
-POSES := $(wildcard 3/*.RM4)
-POSEDEP := $(POSES:3/%.RM4=phrases/%.d)
+DIRS := 1 2 3 4 5 6 7 9
+POSES := $(foreach dir,$(DIRS),$(wildcard $(dir)/*.RM4))
+NULLPOSES := $(wildcard 1/000*.RM4)
+POSES := $(filter-out $(NULLPOSES) 4/000ダンス.RM4 9/songsouji3.RM4 9/songtimer3.RM4,$(POSES))
+POSEDEP := $(POSES:%.RM4=%.d)
 
 # Default target
 all: $(WAVS)
@@ -10,23 +13,24 @@ all: $(WAVS)
 .PHONY: clean 
 clean:
 	$(RM) $(WAVS)
+	
+cleand:
+	$(RM) $(POSEDEP)
 
 #convert files
 voice/%.wav: phrases/%.txt
 	say -v Yannick -o "$@" --file-format=WAVE --data-format=LEI16@44100 < $<
 
-poses: $(POSES) $(POSEDEP)
+poses: $(POSEDEP) $(POSES)
 
 # the following part will create .d files with recipes in the form:
 #3/233絶対勝ってね９.RM4:voice/233.wav
 #	 python wave_rm4.py $@
+%.d:
+	awk -F'"'  '/[:alnum:]*.wav/{gsub(/\\/,"/",$$2);wave =$$2} END{print FILENAME":"wave; print "\tpython wave_rm4.py " FILENAME}' '$(@:%.d=%.RM4)' > $@
 
-phrases/%.d:
-#	sed ’s,\($*\)\.o[ :]*,\1.o $@ : ,g’ < $@.$$$$ > $@
-	echo '$(@:phrases/%.d=3/%.RM4)' | sed -E 's/(.*\/)([A-Z]?[0-9]+)(.*)/\1\2\3:voice\/\2.wav/' > $@
-	echo '	python wave_rm4.py $(@:phrases/%.d=3/%.RM4)' >> $@
 
-include $(POSEDEP)
+-include $(POSEDEP)
 
 cliplist.txt: $(PHRASES)
 	./collectphrases.sh > $@
