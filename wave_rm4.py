@@ -9,7 +9,7 @@ def help():
 def calcWaveRMS(wavefile, steps):
 	try:
 		ifile = wave.open(wavefile)
-		print "Processing " + wavefile
+		print("Processing " + wavefile)
 		sw = ifile.getsampwidth()
 
 		fmts = (None, "=B", "=h", None, "=l")
@@ -36,7 +36,7 @@ def calcWaveRMS(wavefile, steps):
 					rmslist.append((rms/k)**.5)
 					j=j+1
 				else:
-					print "pose too short!"
+					print("pose too short!")
 				
 				rms =0
 				ms=0
@@ -44,14 +44,14 @@ def calcWaveRMS(wavefile, steps):
 		# Pad longer poses with 0s
 		rmslist = rmslist + [0]*(len(steps)-j) 
 		mean = sum(rmslist) / float(len(rmslist))
-##		print rmslist, mean
-##		print steps
-##		print [x > mean/2 for x in rmslist]
-##		print
-		return [x > mean/2 for x in rmslist]
+##		print(rmslist, mean)
+##		print(steps)
+##		print([x > mean/2 for x in rmslist])
+##		print()
+		return([x > mean/2 for x in rmslist])
 	except:
-		print "Cannot read file or file not found !"
-		print wavefile
+		print("Cannot read file or file not found !")
+		print(wavefile)
 	finally:
 		ifile.close()
 	
@@ -61,7 +61,7 @@ def calcWaveRMS(wavefile, steps):
 def main():
 	print('Vocal luminiscence calculator for Robi v1.0b')
 	print('cybernesto 2019')
-	print
+	print()
 
     
 	if len(sys.argv) < 2:
@@ -69,14 +69,15 @@ def main():
 		return
 
 	try:
-		f = open(sys.argv[1],"r")
+		f = open(sys.argv[1], 'r', encoding="SHIFT_JIS")
 		lines = f.readlines()
-		print "Reading " + sys.argv[1]
-		f.close()
-	except:
-		print "Cannot read file or file not found !"
-		print sys.argv[1]
+		print("Reading " + sys.argv[1])
+	except OSError as e:
+		print("Cannot read file or file not found !")
+		print(sys.argv[1])
 		exit()
+	finally:
+		f.close()
 	
 	if len(sys.argv) > 2 and sys.argv[2] == "-b":
 		# save a backup file
@@ -85,22 +86,25 @@ def main():
 			f.writelines(lines)
 			f.close()
 		except:
-			print "Cannot write file or file not found !"
-			print sys.argv[1][:-4]+'.BAK'
+			print("Cannot write file or file not found !")
+			print(sys.argv[1][:-4]+'.BAK')
 			exit()
 
 	#Read binary for address calculation
-	f = open(sys.argv[1],"rb")
+	f = open(sys.argv[1],'rb')
 	try:
 		byte = f.read(1)
 		add = 0
 		lineadds = [0]
 		while byte:
 			# Find EOL
-			if byte == '\n':
+			if byte == b'\n':
 				lineadds.append(add+1)
 			byte = f.read(1)
 			add = add+1
+	except OSError as e:
+		print(f"{type(e)}: {e}")
+		exit()			
 	finally:
 		f.close()
 
@@ -164,11 +168,11 @@ def main():
 			tempAdds = [] # Adress list to avoid endless loops
 
 			address = blocks[b]['jumpAdd']
-			while address <> endtagpos and address not in tempAdds and 'wavefile' not in blocks[address]:
+			while address < endtagpos and address not in tempAdds and 'wavefile' not in blocks[address]:
 				tempAdds.append(address)
 				#this could be sent to a translating service
 #				if 'name' in blocks[address]:
-#					print blocks[address]['name'], address
+#					print(blocks[address]['name'], address)
 				if 'wait' in blocks[address]:
 					delays.append(blocks[address]['wait'])
 					mouth.append(int(blocks[address]['pose'][70],0) != 0)
@@ -187,11 +191,11 @@ def main():
 					old['delays'] = delays
 					old['wavefile'] = blocks[b]['wavefile']
 				except:
-					print "Command aborted"
+					print("Command aborted")
 
 
 			if mouth != mouthRMS:
-				#print mouth, "should be", mouthRMS
+				#print(mouth, "should be", mouthRMS)
 				fixlines = fixlines + waitLines
 				for i, line in enumerate(waitLines):
 					a = blocks[waitAdds[i]]['pose'][48:72]
@@ -200,17 +204,17 @@ def main():
 					else:
 						a[-2] = "0x0000"
 					#lines[i] = ','.join(format(x, '#06x') for x in a)
-					lines[line] = '\t'+','.join(a)+',\r\n'			
+					lines[line] = '\t'+','.join(a)+',\n'			
 		
 
 	# save the corrected file
 	try:
-		f = open(sys.argv[1],"w")
+		f = open(sys.argv[1],"w",encoding="SHIFT_JIS",newline='\r\n')
 		f.writelines(lines)
 		f.close()
 	except:
-		print "Cannot write file or file not found !"
-		print sys.argv[1]
+		print("Cannot write file or file not found !")
+		print(sys.argv[1])
 		exit()
         
 

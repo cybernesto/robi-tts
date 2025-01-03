@@ -25,9 +25,9 @@ poses: $(POSEDEP) $(POSES)
 
 # the following part will create .d files with recipes in the form:
 #3/233絶対勝ってね９.RM4:voice/233.wav
-#	 python wave_rm4.py $@
+#	 python3 wave_rm4.py $@
 %.d:
-	iconv -c -f SHIFT_JIS -t utf8  $(@:%.d=%.RM4) | awk -F'"' '/.wav/{gsub(/¥/,"/",$$2);wave[$$2]=$$2} END{for(w in wave) pre= pre" "w; print "$(@:%.d=%.RM4)" ":"pre; print "\tpython wave_rm4.py $(@:%.d=%.RM4)"}' > $@
+	iconv -c -f SHIFT_JIS -t utf8  $(@:%.d=%.RM4) | awk -F'"' '/.wav/{gsub(/¥/,"/",$$2);wave[$$2]=$$2} END{for(w in wave) pre= pre" "w; print "$(@:%.d=%.RM4)" ":"pre; print "\tpython3 wave_rm4.py $(@:%.d=%.RM4)"}' > $@
 
 -include $(POSEDEP)
 
