@@ -1,10 +1,13 @@
 # Copyright (c) 2020 cybernesto
 
 import sys, re, struct, wave
+import getopt
 
-def help():
-	print('Usage: python wave_rm4.py <robi_file.rm4>')
-
+def usage():
+	print('Usage: python wave_rm4.py [-hbv] <robi_file.rm4>\n')
+	print('  -h       Show this help')
+	print('  -b       make a backup of the input file')
+	print('  -v       verbose output')
 
 def calcWaveRMS(wavefile, steps):
 	try:
@@ -59,40 +62,58 @@ def calcWaveRMS(wavefile, steps):
 
 
 def main():
-	print('Vocal luminiscence calculator for Robi v1.0b')
-	print('cybernesto 2019')
+	backup = False
+	verbose = False
+	
+	print('Vocal luminiscence calculator for Robi v1.1b')
+	print('Copyright cybernesto 2019 - 2022')
 	print()
-
-    
-	if len(sys.argv) < 2:
-		help()
-		return
-
 	try:
-		f = open(sys.argv[1], 'r', encoding="SHIFT_JIS")
+		opts, args = getopt.getopt(
+		               sys.argv[1:],
+		               'hbv',
+		               ['help', 'backup', 'verbose'])
+	except getopt.GetoptError as err:
+		print(err)
+		usage()
+		sys.exit(2)
+    
+	if len(args) == 0:
+		usage()
+		sys.exit(2)
+	for o, a in opts:
+		if o in ('-h', '--help'):
+			usage()
+			sys.exit()
+		elif o in ('-b', '--backup'):
+			backup = True
+		elif o in ('-v', '--verbose'):
+			verbose = True
+			
+	try:
+		f = open(args[0], 'r', encoding="SHIFT_JIS")
 		lines = f.readlines()
-		print("Reading " + sys.argv[1])
+		print("Reading " + args[0])
+		f.close()
 	except OSError as e:
 		print("Cannot read file or file not found !")
-		print(sys.argv[1])
+		print(args[0])
 		exit()
-	finally:
-		f.close()
 	
-	if len(sys.argv) > 2 and sys.argv[2] == "-b":
+	if backup:
 		# save a backup file
 		try:
-			f = open(sys.argv[1][:-4]+'.BAK',"w")
+			f = open(args[0][:-4]+'.BAK',"w", encoding="SHIFT_JIS", newline='\r\n')
 			f.writelines(lines)
 			f.close()
 		except:
 			print("Cannot write file or file not found !")
-			print(sys.argv[1][:-4]+'.BAK')
+			print(args[0][:-4]+'.BAK')
 			exit()
 
 	#Read binary for address calculation
-	f = open(sys.argv[1],'rb')
 	try:
+		f = open(args[0],"rb")
 		byte = f.read(1)
 		add = 0
 		lineadds = [0]
@@ -171,8 +192,9 @@ def main():
 			while address < endtagpos and address not in tempAdds and 'wavefile' not in blocks[address]:
 				tempAdds.append(address)
 				#this could be sent to a translating service
-#				if 'name' in blocks[address]:
-#					print(blocks[address]['name'], address)
+				if verbose:
+					if 'name' in blocks[address]:
+						print(blocks[address]['name'], address)
 				if 'wait' in blocks[address]:
 					delays.append(blocks[address]['wait'])
 					mouth.append(int(blocks[address]['pose'][70],0) != 0)
@@ -195,7 +217,8 @@ def main():
 
 
 			if mouth != mouthRMS:
-				#print(mouth, "should be", mouthRMS)
+				if verbose:
+					print(mouth, "should be", mouthRMS)
 				fixlines = fixlines + waitLines
 				for i, line in enumerate(waitLines):
 					a = blocks[waitAdds[i]]['pose'][48:72]
@@ -209,12 +232,12 @@ def main():
 
 	# save the corrected file
 	try:
-		f = open(sys.argv[1],"w",encoding="SHIFT_JIS",newline='\r\n')
+		f = open(args[0],"w",encoding="SHIFT_JIS",newline='\r\n')
 		f.writelines(lines)
 		f.close()
 	except:
 		print("Cannot write file or file not found !")
-		print(sys.argv[1])
+		print(args[0])
 		exit()
         
 
